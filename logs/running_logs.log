@@ -1,1 +1,5 @@
 [2024-05-01 13:54:41,854: INFO: main:  welcome to custom log ]
+[2024-05-05 20:03:52,296: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 20:03:52,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 20:04:34,744: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 20:04:34,744: INFO: common: yaml file: params.yaml loaded successfully]
