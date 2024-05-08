@@ -487,3 +487,10 @@ Traceback (most recent call last):
     if result[0][0] == 1:
 IndexError: invalid index to scalar variable.
 [2024-05-08 10:35:47,469: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:35:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:37:58,199: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.241.233:8080]
+[2024-05-08 10:37:58,200: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 10:38:08,288: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:38:08] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:38:21,709: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:38:21] "POST /predict HTTP/1.1" 200 -]
