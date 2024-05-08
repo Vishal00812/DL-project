@@ -252,3 +252,238 @@ x==========x]
 [2024-05-07 22:51:38,168: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
 [2024-05-07 22:51:38,168: INFO: common: created directory at: artifacts\training]
 [2024-05-07 22:51:38,480: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-07 23:01:23,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-07 23:01:23,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-07 23:01:23,023: INFO: common: created directory at: artifacts]
+[2024-05-07 23:02:02,746: INFO: common: json file saved at: scores.json]
+[2024-05-08 00:04:42,773: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-08 00:04:42,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-08 00:04:42,779: INFO: common: created directory at: artifacts]
+[2024-05-08 00:04:42,781: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-08 00:04:43,623: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-08 00:04:46,427: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-08 09:38:04,990: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:38:04,990: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:38:17,904: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:38:17] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:38:20,700: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:38:20] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:39:24,515: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:39:24] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:42:03,312: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:42:03,312: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:42:17,513: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:42:17] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:45:26,348: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:45:26,352: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:45:33,076: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:45:33] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:46:03,755: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:46:03] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:46:21,745: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:46:21] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:46:30,535: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:46:30] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:46:47,236: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:46:47] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:46:54,562: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:46:54] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:47:12,696: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:47:12] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:47:16,526: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:47:16] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:47:38,141: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002B8B63DF910> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-08 09:47:38,151: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:47:38] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:47:47,985: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002B8B63DD6C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-08 09:47:47,989: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:47:47] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:48:49,527: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:48:49] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:49:02,252: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:49:02] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:49:28,717: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:49:28] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:52:35,699: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:52:35,700: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:52:50,338: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:52:50] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:53:09,704: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:53:09] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:53:26,654: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:53:26] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:53:37,469: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:53:37] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:53:51,678: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:53:51] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:54:09,838: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000026733B7F9A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-08 09:54:09,850: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:54:09] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:55:36,762: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:55:36,765: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:55:42,686: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:55:42] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:55:53,856: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:55:53] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:56:05,106: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:56:05] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:56:20,076: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:56:20] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:56:29,710: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:56:29] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:56:40,991: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000022E3E06F9A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-08 09:56:40,991: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:56:40] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:56:54,724: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000022E3E06D750> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-08 09:56:54,741: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:56:54] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 09:57:30,532: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 09:57:30,534: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 09:58:00,970: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:58:00] "GET / HTTP/1.1" 200 -]
+[2024-05-08 09:58:12,154: INFO: _internal: 127.0.0.1 - - [08/May/2024 09:58:12] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 10:13:30,217: WARNING: module_wrapper: From D:\openai\DL project\env\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+]
+[2024-05-08 10:24:10,065: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.72:8080]
+[2024-05-08 10:24:10,065: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 10:24:13,956: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:24:13] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:24:29,796: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 25, in predict
+    if result[0][0] == 0:
+IndexError: invalid index to scalar variable.
+[2024-05-08 10:24:29,847: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:24:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:25:20,110: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:25:20] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:25:25,996: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 19, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+  File "D:\openai\DL project\env\lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "D:\openai\DL project\env\lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001FC8C9049A0>
+[2024-05-08 10:25:26,055: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:25:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:25:48,639: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:25:48] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:26:07,348: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:26:07] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:26:13,089: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 19, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+  File "D:\openai\DL project\env\lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "D:\openai\DL project\env\lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001FC8B791120>
+[2024-05-08 10:26:13,105: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:26:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:26:22,772: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:26:22] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:26:33,252: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 25, in predict
+    if result[0][0] == 0:
+IndexError: invalid index to scalar variable.
+[2024-05-08 10:26:33,261: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:26:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:30:02,558: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:30:02] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:30:12,008: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 25, in predict
+    if result[0] == 0:
+IndexError: invalid index to scalar variable.
+[2024-05-08 10:30:12,039: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:30:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-08 10:31:04,712: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.241.233:8080]
+[2024-05-08 10:31:04,712: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 10:31:36,748: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:31:36] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:31:47,956: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:31:47] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 10:32:12,046: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:32:12] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:32:22,801: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:32:22] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 10:34:19,091: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:34:19] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:34:31,240: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:34:31] "POST /predict HTTP/1.1" 200 -]
+[2024-05-08 10:35:27,246: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.241.233:8080]
+[2024-05-08 10:35:27,261: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-08 10:35:36,866: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:35:36] "GET / HTTP/1.1" 200 -]
+[2024-05-08 10:35:47,334: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\openai\DL project\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\openai\DL project\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\openai\DL project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\openai\dl project\src\cnnClassifier\pipeline\predict.py", line 25, in predict
+    if result[0][0] == 1:
+IndexError: invalid index to scalar variable.
+[2024-05-08 10:35:47,469: INFO: _internal: 127.0.0.1 - - [08/May/2024 10:35:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
